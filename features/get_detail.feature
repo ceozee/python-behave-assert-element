@@ -1,11 +1,11 @@
-Feature: Assurity automated Test sample
+Feature: Assurity automated Test sample using Python Behave
 
-  Scenario: Name should be Carbon credits, CanRelist should be True
+  Scenario: Name should be Carbon credits
     Given an api url with valid response
     When user sends request to get response
     Then it should display Name with value Carbon credits
 
-  Scenario: Name should be Carbon credits, CanRelist should be True
+  Scenario: CanRelist should be True
     Given an api url with valid response
     When user sends request to get response
     Then it should display CanRelist with boolean value True
